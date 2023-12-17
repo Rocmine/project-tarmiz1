@@ -265,6 +265,151 @@ border-radius: 10px;
 
 
 }
+/* Base styles for all screen sizes */
+
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    font-size: 16px;
+}
+
+.header {
+    width: 100%;
+    height: 365px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: solid 7px green;
+}
+
+/* Add styles for tablets (landscape) and larger screens */
+@media only screen and (min-width: 768px) {
+    .header {
+        height: 500px;
+    }
+
+    .img-header {
+        bottom: 200px;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+    }
+
+    .headertwo {
+        bottom: 180px;
+    }
+
+    .content-logo > h1 {
+        margin-left: 0;
+    }
+
+    .img-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-content {
+        bottom: 100px;
+        margin-left: 30%;
+    }
+
+    .langues {
+        margin-left: 0;
+    }
+
+    .languex > a {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    #section-cousses {
+        margin-top: 150px;
+    }
+
+    .course > img {
+        width: 120px;
+        height: 120px;
+        margin: 30px;
+    }
+
+    .h2 > h2 {
+        width: 60%;
+    }
+
+    .cousess > img {
+        width: 150px;
+        height: 75px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+}
+
+/* Add styles for larger screens (desktops, laptops) */
+@media only screen and (min-width: 1200px) {
+    .header {
+        height: 600px;
+    }
+
+    .img-header {
+        bottom: 300px;
+    }
+
+    .headertwo {
+        bottom: 250px;
+    }
+
+    .content-logo > h1 {
+        margin-left: 50px;
+    }
+
+    .img-logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-content {
+        bottom: 150px;
+        margin-left: 40%;
+    }
+
+    .langues {
+        margin-left: -100px;
+    }
+
+    .languex > a {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    #section-cousses {
+        margin-top: 200px;
+    }
+
+    .course > img {
+        width: 150px;
+        height: 150px;
+        margin: 40px;
+    }
+
+    .h2 > h2 {
+        width: 70%;
+    }
+
+    .cousess > img {
+        width: 200px;
+        height: 100px;
+    }
+
+    button {
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+}
 
 
 
