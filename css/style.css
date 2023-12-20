@@ -204,7 +204,12 @@ nav a.selectedSection {
     border-radius: 50%;
     overflow: hidden;
     padding: 10px;
-    transition: var(--mainTransition)
+    transition: var(--mainTransition);
+}
+
+.content-logo .img-logo img {
+    object-fit:contain;
+    aspect-ratio:1/1;
 }
 
 @media (max-width:768px) {
